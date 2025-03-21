@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    h1{
+      text-align: center;
+    }
+
+    .container{
+      max-width: 400px;
+      align-items: center;
+      text-align: center;
+      margin: 0 auto;
+      border: 2px chartreuse solid;
+      padding: 20px;
+      border-radius: 8px;
+    }
+     
+    form {
+      display: inline-block;
+    }
+
+    label {
+      margin-bottom: 20px;
+    }
+    input {
+    }
+
+    button {
+      background-color: rgb(12, 33, 102);
+      color: white;
+      width: 50%;
+      padding: 3px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <h1>Contact Us Today</h1>
+  <div class="container">
+    <form action="">
+      <label for="name">Enter Your Name:</label><br><br>
+      <input type="text" placeholder="Enter you name here.."><br><br>
+      <label for="company-name">Company Name:</label><br><br>
+      <input type="text" placeholder="Compnay name..."><br><br>
+      <label for="email">Enter Your Email:</label><br><br>
+      <input type="email" placeholder="Enter your Email Address..."><br><br>
+      <label for="textarea">Enter Your Feedback</label><br><br>
+      <textarea name="text" id="text"></textarea><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
